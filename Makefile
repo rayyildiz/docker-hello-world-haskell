@@ -1,4 +1,4 @@
-cross-build:
+build:
 	docker run --rm -i -t -v `pwd`:/home/ghc rayyildiz/haskell-dev /bin/bash
 
 cabal-build:
